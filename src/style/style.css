@@ -1,0 +1,213 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(20, 20, 24);
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    border-bottom: 1px solid white;
+}
+
+nav .header {
+    font-size: 1.8em;
+}
+
+nav input {
+    width: 30%;
+    padding: 12px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    border: 1px solid white;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+/* styling app-body */
+.app-form {
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+    padding: 20px;
+    margin: 2em auto;
+    row-gap: 14px;
+}
+
+.app-form h3 {
+    font-weight: 300;
+    font-size: 1.4em;
+}
+
+.app-form form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.app-form .sisa-karakter {
+    text-align: right;
+    font-size: .90em;
+    color: #aaa;
+}
+
+.app-form input {
+    padding: 15px;
+    font-size: 14px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-weight: bolder;
+    color: white;
+}
+
+.app-form textarea {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border: 1px solid white;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: bolder;
+    color: white;
+    font-family: "Inter", sans-serif;
+}
+
+.app-form button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+
+/* styling card */
+.catatan-aktif {
+    width: 1000px;
+    margin: auto;
+    padding: 30px;
+}
+
+.catatan-aktif h3.header-catatan {
+    font-size: 1.5em;
+    font-weight: lighter;
+}
+
+.note-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 15px;
+}
+
+.card {
+    display: flex;
+    width: 220px;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.card-item {
+    border: 1px solid white;
+    border-radius: 3px;
+    padding: 20px 12px;
+    border-radius: 3px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.card-item span {
+    font-size: .8em;
+}
+
+.card h3 {
+    margin-bottom: 10px;
+}
+
+.card p {
+    margin-top: 10px;
+    font-size: .92em;
+}
+
+.btn-action {
+    display: flex;
+}
+
+.btn-delete,
+.btn-archive {
+    width: 100%;
+    border: 1px solid white;
+    text-align: center;
+    align-self: flex-end;
+    padding: 8px 20px;
+    border-top: none;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.btn-delete button {
+    border-right: none;
+    color: rgb(241, 57, 57);
+    font-size: .9em;
+    font-weight: 700;
+}
+
+.btn-delete button:hover,
+.btn-archive button:hover {
+    cursor: pointer;
+}
+
+.btn-archive button {
+    color: rgb(255, 255, 80);
+    font-weight: 700;
+    border-left: none;
+}
+
+.btn-archive {
+    border-left: none;
+}
+
+button {
+    background: transparent;
+    outline: none;
+    border: none;
+    color: white;
+}
+
+.note-list .catatan {
+    margin: auto;
+    color: #555;
+    margin-top: 10px;
+    font-weight: 700;
+}
+
+footer {
+    background-color: rgb(20, 20, 24);
+    border-top: 1px solid white;
+    padding: 20px;
+    border-radius: 2px;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 3em;
+}
+
+button[type='submit'] {
+    cursor: pointer;
+}
