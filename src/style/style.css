@@ -211,3 +211,28 @@ footer {
 button[type='submit'] {
     cursor: pointer;
 }
+
+@media screen and (max-width: 800px) {
+    .app-form {
+        width: 100%;
+    }
+
+    .catatan-aktif {
+        width: 100%;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    nav .header {
+        font-size: 1.3em;
+    }
+
+    nav input {
+        width: 50%;
+        font-size: 12px;
+        font-weight: 700;
+    }
+
+}
